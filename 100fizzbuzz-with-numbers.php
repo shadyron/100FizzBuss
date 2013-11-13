@@ -7,8 +7,8 @@ for ($i=1; $i<101; $i++) {
                 echo "Buzz (" . $i  . ")<br>";
         } else if (is_int(($i)/3)) {
                 echo "Fizz (" . $i . ")<br>";
-        }
-
-        echo $i . "<br>";
+        } else {
+	        echo $i . "<br>";
+	}
 }
 ?> 
